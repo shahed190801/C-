@@ -2,6 +2,20 @@
 using namespace std;
 int main()
 {
+ string name;
+ cout <<"Input Your name:";
+ getline(cin, name);
+ 
+ 	 cout<< "Hi, "<< name <<",How are you? "<< endl;
+ 	 
+ string Comment;
+ cout <<"Do you use this Allcalc? (Y/N):";
+ getline(cin, Comment);
+ 
+ 	 cout<< "Here we go..."<< endl;
+ 	 
+
+ 
  int a,b,sum,sub,mul,div,rem;
  
 	cout<< "a=";
