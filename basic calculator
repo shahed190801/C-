@@ -7,10 +7,6 @@ int main()
  getline(cin, name);
  
  	 cout<< "Hi, "<< name <<",How are you? "<< endl;
- 	 
- string Comment;
-
- getline(cin, Comment);
  
  	 cout<< "Here we go..."<< endl;
  	 
