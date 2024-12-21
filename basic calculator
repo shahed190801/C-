@@ -16,7 +16,7 @@ int main()
  	 
 
  
- int a,b,sum,sub,mul,div,rem;
+ double a,b,sum,sub,mul,div,rem;
  
 	cout<< "a=";
   	 cin>> a;
@@ -26,12 +26,11 @@ int main()
  	sum= a+b;
  	sub= a-b;
  	div= a/b;
- 	rem= a%b;
  	mul= a*b;
  	
  cout<< "sum:"<< sum << endl;
   cout<< "sub:"<< sub << endl;
-   cout<< "div:"<< div <<" rem:" <<rem<< endl;
+   cout<< "div:"<< div << endl;
     cout<< "mul:"<< mul << endl;
  
 return 0;
