@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+void sayHi(){
+  string name;
+    cout << "hello there, "<< name ;
+    cin >> name;
+}
+char decision;
+int main()
+{
+sayHi();
+while(1){
+  cout << "Do u want to continue to learn C++? (y/n)" << endl;
+  
+  cin>> decision;
+  if (decision== 'y') 
+  {
+  cout<< "then, BEST OF LUCK..." << endl;
+  
+  }
+  else;
+  break;
+ }
+  return 0;
+}
