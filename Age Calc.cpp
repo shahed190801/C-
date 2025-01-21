@@ -8,10 +8,10 @@ int main()
    cout << "Input Your Name: ";
    getline(cin, name);
 
-   int age;
-   cout << "Input Your Age: ";
-   cin >> age;
-
+   int year,age;
+   cout << "Input Your birth-year: ";
+   cin >> year;
+   age=2025-year;
 
    int mobileNum;
    cout << "Input Your Mobile Number: ";
