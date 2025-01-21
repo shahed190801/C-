@@ -6,6 +6,7 @@ void sayHi(){
     cout << "hello there, "<< name ;
     cin >> name;
 }
+
 char decision;
 int main()
 {
