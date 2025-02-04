@@ -3,12 +3,10 @@ using namespace std;
 
 int main(){
     int year;
-    for(;;){
-        cout<< "Enter a year(Enter 0 to stop): ";
+    cout<< "Enter a year(Enter 0 to stop): ";
         cin>>year;
-    if(year ==0){
-        break;
-    }
+
+    while(year !=0){
 
     if((year% 400 ==0)||(year%4==0 && year% 100!=0)){
         cout<<year<<" is a leap year."<<endl;
@@ -16,6 +14,8 @@ int main(){
     else{
         cout<<year<<" isn't a leap year."<<endl;
         }
+        cout<< "Enter another year(Enter 0 to stop): ";
+        cin>>year;
     }
     cout<< ""<<endl;
     cout<< "Thanks for using This Programme.";
