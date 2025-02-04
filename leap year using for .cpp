@@ -6,7 +6,7 @@ int main(){
     cout<< "Enter a year(Enter 0 to stop): ";
         cin>>year;
 
-    while(year !=0){
+    while(year >0){
 
     if((year% 400 ==0)||(year%4==0 && year% 100!=0)){
         cout<<year<<" is a leap year."<<endl;
